@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Startup India Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="topofnav">
+                <div class="mobileheader"></div>
+                <div class="mainheader">
+                    <div class="left1">
+                        <div class="nav_container">
+                            <div class="leftcontainer">
+                                <ul>
+                                    <li><a href="#"><img class="logo2img1 logimg" src="./img/Gov of IND.png"
+                                                alt="failed to load"></a></li>
+                                    <li><a href="#"><img class="logo2img2 logimg" src="./img/MOCAI.png "
+                                                alt="Failed to load"></a></li>
+                                    <li>
+                                        <div class="social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-linkedin-square"
+                                                            style="font-size:24px"></i></a></li>
+                                                <li><a href="#"><img class="xtwitter"
+                                                            src="./img/twitter-icon-head.png" alt=""></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook-f"
+                                                            style="font-size:24px"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="righcontainer">
+                        <div class="tollnum">
+                            <p>Our Toll Free Number :1800 115 565 (10:00 AM to 05:30 PM)</p>
+                        </div>
+                    </div> -->
+                    <div id="datetime"></div>
+                    <script>function updateDateTime() {
+                        const datetimeElement = document.getElementById("datetime");
+                        const now = new Date();
+                        const date = now.toDateString();
+                        const time = now.toLocaleTimeString();
+                        datetimeElement.textContent = `${date} | ${time}`;
+                    }
+            
+                    // Update the date and time initially and every second
+                    updateDateTime();
+                    setInterval(updateDateTime, 1000);</script>
+                </div>
+            </div>
+            <div class="midnav">
+                <div class="midnav1">
+                    <div class="logoarea">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./img/startuplogoa.png" alt="" class="logarea1"></a>
+                            </li>
+                            <li>
+                                <div class="verticalflip"> 
+                                    <!-- <span><img src="./img/Logo1.png" alt="" class="strt1"></span> -->
+                                    <span><img src="./img/DPIIT.svg" alt=""></span>
+                                    <span><img src="./img/logo3.png" alt=""></span>
+                                    <span><img src="./img/g20logo.png" alt=""></span>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="midnav2">
+                    <div class="midnav2">
+                        <div class="searchbarmain">
+                            <div class="search">
+                                <form class="searchform" action"#">
+                                    <input id="searchbar" type="text" placeholder="Search Here">
+                                    <span> <i class="fa fa-search" aria-hidden="true"></i></span>
+                                </form>
+                            </div>
+                            <div class="login">
+                                <a href="./loginpage/index.html">Login/Sign-Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottumnav">
+                <div class="navbottum">
+                    <div class="listsource">
+                        <ul>
+                            <li>About </li>
+                            <li><a href="index.html">Profile</a></li>
+                            <li><a href="event.html">Event And Workshope</a></li>
+                            <li><a href="forum.html">Community & Forum</a></li>
+                            <li><a href="network.html">Network</a></li>
+                            <li><a href="feedback.html">Feedback & Support</a></li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="heroimg">
+        <div class="hero-content">
+            <h1>Welcome to Startup AYUSH</h1>
+            <p>Your Health, Our Heritage</p>
+            <a href="#about" class="cta-button btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Startup India is a government initiative to promote innovation and entrepreneurship across the country.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Startup Registration</h3>
+            <p>Register your startup and avail of various benefits and support.</p>
+        </div>
+        <div class="service">
+            <h3>Access to Funding</h3>
+            <p>Explore funding opportunities and connect with investors.</p>
+        </div>
+        <div class="service">
+            <h3>Resource Hub</h3>
+            <p>Access a wealth of resources, guides, and mentorship to grow your startup.</p>
+        </div>
+    </section>
+
+    <!-- More sections for Startups, Resources, and Contact -->
+
+    <footer>
+        <p>&copy; 2023 Ayush Startup.All Rights Reserved.</p>
+        <h4>HELP: +91 8022XXXXXX,894</h4>
+        <h4>E-mail: startupayush@india.gov.in</h4>
+    </footer>
+</body>
+</html>
