@@ -10,7 +10,7 @@ body {
 header {
     background-color: #ff8c00;
     color: #fff;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 nav {
@@ -308,9 +308,14 @@ li{
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
+    background-color: rgb(227, 106, 13);
 }
 .navbottum{
     margin: 0 10vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .listsource ul {
     display: flex;
