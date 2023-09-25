@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #ff8c00;
+    background-color: #3c3b39;
     color: #fff;
     /* padding: 20px 0; */
 }
@@ -92,7 +92,7 @@ footer {
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    animation: animate 5s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
