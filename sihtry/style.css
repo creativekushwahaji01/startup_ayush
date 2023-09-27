@@ -433,3 +433,46 @@ li{
 li{
     text-transform: capitalize;
 }
+.chatimg{
+    height: 150px;
+    width: auto;
+}
+.chatbot {
+    display: flex;
+    justify-content: space-around;
+    }
+.logo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.chat-bubble {
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: float 2s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.chat_disc > h2:nth-child(1) {
+    margin: 10px;
+    font-size: calc(20px + 1.953125vw);
+    }
+.chat_disc{
+    color: #2482ff;
+    text-decoration: underline;
+    font-size: calc(20px + 1.953125vw);
+    text-transform: capitalize;
+}
+.chatlink{
+    text-decoration: none;
+    color: #2482ff;
+}
