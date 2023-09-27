@@ -483,3 +483,8 @@ li{
     border: 2px solid rgb(246,115,15);
     padding: 5px;
 }
+.language {
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 4px;
+    }
