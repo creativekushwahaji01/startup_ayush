@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Signup</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="top">
+    <h1 class="title-head">#Startup India</h1>
+  <h2 class="title-head">Welcome to Ayush portal</h2>
+  </div>
+  <div class="main">
+    <section class="intro">
+      <div class="data">
+        <img src="../img/Logo1.png" alt="*****">
+        <p>Startup India Portal is a one of its kind online platform for all stakeholders of the startup ecosystem in India.</p>
+    </div>
+    <div class="discription">
+      
+      <img src="../img/gov-login-img.png" alt="" class="logo2">
+      
+    </div>
+    </section>
+  <section class="forms-section">
+    <div class="forms">
+      <div class="form-wrapper is-active">
+        <button type="button" class="switcher switcher-login">
+          Login
+          <span class="underline"></span>
+        </button>
+        <form class="form form-login">
+          <fieldset>
+            <legend>Please, enter your email and password for login.</legend>
+            <div class="input-block">
+              <label for="login-email">E-mail</label>
+              <input id="login-email" type="email" required>
+            </div>
+            <div class="input-block">
+              <label for="login-password">Password</label>
+              <input id="login-password" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-login">Login</button>
+        </form>
+      </div>
+      <div class="form-wrapper">
+        <button type="button" class="switcher switcher-signup">
+          Sign Up
+          <span class="underline"></span>
+        </button>
+        <form class="form form-signup">
+          <fieldset>
+            <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+            <div class="input-block">
+              <label for="signup-email">E-mail</label>
+              <input id="signup-email" type="email" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password">Password</label>
+              <input id="signup-password" type="password" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password-confirm">Confirm password</label>
+              <input id="signup-password-confirm" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-signup">Continue</button>
+        </form>
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </section>
+  </div>
+</body>
+</html>
