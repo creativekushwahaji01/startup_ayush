@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --color:rgb(246,115,15);
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -518,7 +521,7 @@ li{
         cursor: pointer;
         background: #f8f8f8;
         background: transparent;
-        padding: 0.5rem 0.75rem;
+        padding: 5px;
         border: 1px solid #d4dbdb;
         border-radius: 5px;
         outline: none;
@@ -577,11 +580,12 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:  3.90625vw;
 }
 
 .timer-section {
     margin: 0 10px;
-    background-color: #333; /* Background color for sections */
+    background-color: var(--color); /* Background color for sections */
     color: #fff; /* Text color for sections */
     border-radius: 5px;
     padding: 10px;
@@ -590,10 +594,12 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1vw;
 }
 
 .label {
-    font-size: 16px;
+    font-size: 25px;
+    width: 75px;
 }
 
 #daysValue, #hoursValue, #minutesValue, #secondsValue {
@@ -614,11 +620,14 @@ li{
     margin: 10px;
     text-transform:uppercase;
     font-family: "Economica", sans-serif;
-    font-weight: 500;
+    font-weight: bold;
 }
 .event_details h1 {
-    font-size: 40px;
+    font-size: calc( 30px + 2vw);
 }
 .event_details h3 {
-    font-size: 30px;
+    font-size: calc( 20px + 2vw);
+}
+.eve{
+    font-family: "Economica", sans-serif;
 }
