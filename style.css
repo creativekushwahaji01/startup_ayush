@@ -437,10 +437,7 @@ li{
     height: 150px;
     width: auto;
 }
-.chatbot {
-    display: flex;
-    justify-content: space-around;
-    }
+
 .logo {
     position: relative;
     width: 200px;
@@ -468,8 +465,8 @@ li{
     }
 .chat_disc{
     color: #2482ff;
-    text-decoration: underline;
-    font-size: calc(20px + 1.953125vw);
+    text-align: center;
+    font-size: 20px;
     text-transform: capitalize;
 }
 .chatlink{
@@ -555,3 +552,18 @@ li{
           right: 0.25rem;
         }
       }
+
+/* Apply basic styles to the sticky div */
+.chatbot{
+    position: fixed;
+    top: 60%; 
+    width: 200px;
+    height: 100%; 
+    padding: 50px;
+    overflow-y: auto;
+    right: 0;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
