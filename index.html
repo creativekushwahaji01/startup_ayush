@@ -1,342 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Startup India Portal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Startup India Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="navbar">
-            <div class="topofnav">
-                <div class="mobileheader"></div>
-                <div class="mainheader">
-                    <div class="left1">
-                        <div class="nav_container">
-                            <div class="leftcontainer">
-                                <ul>
-                                    <li><a href="#"><img class="logo2img1 logimg" src="./img/Gov of IND.png"
-                                                alt="failed to load"></a></li>
-                                    <li><a href="#"><img class="logo2img2 logimg" src="./img/MOCAI.png "
-                                                alt="Failed to load"></a></li>
-                                    <li>
-                                        <div class="social">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-linkedin-square"
-                                                            style="font-size:24px"></i></a></li>
-                                                <li><a href="#"><img class="xtwitter"
-                                                            src="./img/twitter-icon-head.png" alt=""></a></li>
-                                                <!-- <li><a href="#"><i class="fa fa-facebook-f" -->
-                                                            <!-- style="font-size:24px"></i></a></li> -->
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
+  <header>
+    <div class="navbar">
+      <div class="topofnav">
+        <div class="mobileheader"></div>
+        <div class="mainheader">
+          <div class="left1">
+            <div class="nav_container">
+              <div class="leftcontainer">
+                <ul>
+                  <li><a href="#"><img class="logo2img1 logimg" src="./img/Gov of IND.png" alt="failed to load"></a>
+                  </li>
+                  <li><a href="#"><img class="logo2img2 logimg" src="./img/MOCAI.png " alt="Failed to load"></a></li>
+                  <li>
+                    <div class="social">
+                      <ul>
+                        <li><a href="#"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
+                        <li><a href="#"><img class="xtwitter" src="./img/twitter-icon-head.png" alt=""></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-facebook-f" -->
+                        <!-- style="font-size:24px"></i></a></li> -->
+                      </ul>
                     </div>
-                    <div id="datetime"></div>
-                    <script>function updateDateTime() {
-                        const datetimeElement = document.getElementById("datetime");
-                        const now = new Date();
-                        const date = now.toDateString();
-                        const time = now.toLocaleTimeString();
-                        datetimeElement.textContent = `${date} | ${time}`;
-                    }
-            
-                    // Update the date and time initially and every second
-                    updateDateTime();
-                    setInterval(updateDateTime, 1000);</script>
-                </div>
+                  </li>
+                </ul>
+              </div>
+
             </div>
-            <div class="midnav">
-                <div class="midnav1">
-                    <div class="logoarea">
-                        <ul>
-                            <li>
-                                <a href="#"><img src="./img/startuplogoa.png" alt="" class="logarea1"></a>
-                            </li>
-                            <li>
-                                <div class="verticalflip"> 
-                                    <!-- <span><img src="./img/Logo1.png" alt="" class="strt1"></span> -->
-                                    <span><img src="./img/DPIIT.svg" alt=""></span>
-                                    <span><img src="./img/logo3.png" alt=""></span>
-                                    <span><img src="./img/g20logo.png" alt=""></span>
-                                  </div>
-                            </li>
-                        </ul>
-                    </div>
+          </div>
+          <div id="datetime"></div>
+          <script>function updateDateTime() {
+              const datetimeElement = document.getElementById("datetime");
+              const now = new Date();
+              const date = now.toDateString();
+              const time = now.toLocaleTimeString();
+              datetimeElement.textContent = `${date} | ${time}`;
+            }
+
+            // Update the date and time initially and every second
+            updateDateTime();
+            setInterval(updateDateTime, 1000);</script>
+        </div>
+      </div>
+      <div class="midnav">
+        <div class="midnav1">
+          <div class="logoarea">
+            <ul>
+              <li>
+                <a href="#"><img src="./img/startuplogoa.png" alt="" class="logarea1"></a>
+              </li>
+              <li>
+                <div class="verticalflip">
+                  <!-- <span><img src="./img/Logo1.png" alt="" class="strt1"></span> -->
+                  <span><img src="./img/DPIIT.svg" alt=""></span>
+                  <span><img src="./img/logo3.png" alt=""></span>
+                  <span><img src="./img/g20logo.png" alt=""></span>
                 </div>
-                <div class="midnav2">
-                    <div class="midnav2">
-                        <div class="searchbarmain">
-                            <div class="search">
-                                <form class="searchform" action"#">
-                                    <input id="searchbar" type="text" placeholder="Search Here">
-                                    <span> <i class="fa fa-search" aria-hidden="true"></i></span>
-                                </form>
-                            </div>
-                            <div class="login">
-                                <a href="./loginpage/index.html">Login/Sign-Up</a>
-                            </div>
-                            <div class="language">
-                                <!-- <a class="languageico" href="#">Select Languages▼</a> -->
-                                <button type="button" class="ripple btn">
-                                    <i class="btn__icon">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z" fill="currentColor"/>
-                                      </svg>
-                                    </i>
-                                    <span class="btn__label">Change Language</span>
-                                    <div class="ripple__inner"></div>
-                                  </button>
-                                  <script>function easeOut (x) {
-                                    return 1 - (1 - x) * (1 - x);
-                                  }
-                                  
-                                  function createAnimation ({ duration = 300, update, done }) {
-                                    let start =  0;
-                                    let elapsed = 0;
-                                    let progress = 0;
-                                    let aborted = false;
-                                    let animationFrameId = 0;
-                                  
-                                    // Ensure the `update` and `done` callbacks are callable functions
-                                    done = (typeof done === 'function') ? done : function () {};
-                                    update = (typeof update === 'function') ? update : function () {};
-                                  
-                                    // Function to effectively cancel the current animation frame
-                                    function stopAnimation () {
-                                      cancelAnimationFrame(animationFrameId);
-                                      animationFrameId = 0;
-                                    }
-                                  
-                                    // Start a new animation by requesting for an animation frame
-                                    animationFrameId = requestAnimationFrame(
-                                      function _animation (timestamp) {
-                                        // Set the animation start timestamp if not set
-                                        if (!start) start = timestamp;
-                                  
-                                        // Compute the time elapsed and the progress (0 - 1)
-                                        elapsed = timestamp - start;
-                                        progress = Math.min(elapsed / duration, 1);
-                                  
-                                        // Call the `update()` callback with the current progress
-                                        update(progress);
-                                  
-                                        // Stop the animation if `.abort()` has been called
-                                        if (aborted === true) return stopAnimation();
-                                  
-                                        // Request another animation frame until duration elapses
-                                        if (timestamp < start + duration) {
-                                          animationFrameId = requestAnimationFrame(_animation);
-                                          return;
-                                        }
-                                  
-                                        // If duration has elapsed, cancel the current animation frame
-                                        // and call the `done()` callback
-                                        stopAnimation();
-                                        done();
-                                      }
-                                    );
-                                  
-                                    // Return an object with an `.abort()` method to stop the animation
-                                    // Returns: Object({ abort: fn() })
-                                    return Object.defineProperty(Object.create(null), 'abort', {
-                                      value: function _abortAnimation () { aborted = true }
-                                    });
-                                  }
-                                  
-                                  function getRippleElementProps (elem) {
-                                    // Initialize the ripple elements registry (first call only)
-                                    const rippleElems = new WeakMap();
-                                  
-                                    getRippleElementProps = function (elem) {
-                                      if (elem instanceof HTMLElement) {
-                                        if (!rippleElems.has(elem)) {
-                                          // Get the dimensions and position of the element on the page
-                                          const { width, height, y: top, x: left } = elem.getBoundingClientRect();
-                                          const diameter = Math.min(width, height);
-                                          const radius = Math.ceil(diameter / 2);
-                                  
-                                          // Configure functions to set and remove style properties
-                                          const style = elem.style;
-                                          const setProperty = style.setProperty.bind(style);
-                                          const removeProperty = style.removeProperty.bind(style);
-                                  
-                                          // Function to remove multiple style properties at once
-                                          function removeProperties (...properties) {
-                                            properties.forEach(removeProperty);
-                                          }
-                                  
-                                          // Set the diameter of the ripple in a custom CSS property
-                                          setProperty('--ripple-diameter', `${diameter}px`);
-                                  
-                                          // Add the element and its geometric properties
-                                          // to the ripple elements registry (WeakMap)
-                                          rippleElems.set(elem, {
-                                            animations: [],
-                                            width, height, radius, top, left, setProperty, removeProperties
-                                          });
-                                        }
-                                  
-                                        // Return the geometric properties of the element
-                                        return rippleElems.get(elem);
-                                      }
-                                    }
-                                  
-                                    return getRippleElementProps(elem);
-                                  }
-                                  
-                                  function runRippleAnimation (elem, scaleFactor) {
-                                    const { animations, setProperty, removeProperties } = getRippleElementProps(elem);
-                                  
-                                    // Abort all animations in the current sequence
-                                    while (animations.length) {
-                                      animations.pop().abort();
-                                    }
-                                  
-                                    // Start the "scale up" animation and add it to the animation sequence
-                                    animations.push(createAnimation({
-                                      duration: 300,
-                                      update: progress => {
-                                        setProperty('--ripple-scale', progress * scaleFactor);
-                                      }
-                                    }));
-                                  
-                                    // Start the "opacity up" animation and add it to the animation sequence
-                                    animations.push(createAnimation({
-                                      duration: 200,
-                                      update: progress => {
-                                        setProperty('--ripple-opacity', Math.min(1, easeOut(progress) + 0.5));
-                                      },
-                                  
-                                      done: () => {
-                                        // Wait for at least 50ms
-                                        // Start the "opacity down" animation and add it to the animation sequence
-                                        setTimeout(() => {
-                                          animations.push(createAnimation({
-                                            duration: 200,
-                                            update: progress => {
-                                              setProperty('--ripple-opacity', easeOut(1 - progress));
-                                            },
-                                            
-                                            done: () => {
-                                              // Remove all the properties at the end of the sequence
-                                              removeProperties(
-                                                '--ripple-center-x',
-                                                '--ripple-center-y',
-                                                '--ripple-opacity',
-                                                '--ripple-scale'
-                                              );
-                                            }
-                                          }));
-                                        }, 50);
-                                      }
-                                    }));
-                                  }
-                                  
-                                  document.addEventListener('click', function _rippleClickHandler (evt) {
-                                    // Capture clicks happening inside a ripple element
-                                    const target = evt.target.closest('.ripple');
-                                  
-                                    if (target) {
-                                      // Get ripple element geometric properties from registry
-                                      const {
-                                        width, height, radius, top, left, setProperty
-                                      } = getRippleElementProps(target);
-                                  
-                                      // Get the half width and height of the ripple element
-                                      const width_2 = width / 2;
-                                      const height_2 = height / 2;
-                                  
-                                      // Get the x and y offsets of the click within the ripple element
-                                      const x = evt.clientX - left;
-                                      const y = evt.clientY - top;
-                                  
-                                      // Compute the scale factor using Pythagoras' theorem
-                                      // and dividing by the ripple radius
-                                      const scaleFactor = Math.ceil(
-                                        Math.sqrt(
-                                          Math.pow(width_2 + Math.abs(x - width_2), 2) +
-                                          Math.pow(height_2 + Math.abs(y - height_2), 2)
-                                        ) / radius
-                                      );
-                                  
-                                      // Set the ripple center coordinates on the custom CSS properties
-                                      // Notice the ripple radius being used for offsets
-                                      setProperty('--ripple-center-x', `${x - radius}px`);
-                                      setProperty('--ripple-center-y', `${y - radius}px`);
-                                  
-                                      // Run the ripple spreading animation
-                                      runRippleAnimation(target, scaleFactor);
-                                    }
-                                  }, false);</script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="midnav2">
+          <div class="midnav2">
+            <div class="searchbarmain">
+              <div class="search">
+                <form class="searchform" action"#">
+                  <input id="searchbar" type="text" placeholder="Search Here">
+                  <span> <i class="fa fa-search" aria-hidden="true"></i></span>
+                </form>
+              </div>
+              <div class="login">
+                <a href="./loginpage/index.html">Login/Sign-Up</a>
+              </div>
+              <div class="language">
+                <!-- <a class="languageico" href="#">Select Languages▼</a> -->
+                <button type="button" class="ripple btn">
+                  <i class="btn__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"
+                        fill="currentColor" />
+                    </svg>
+                  </i>
+                  <span class="btn__label">Change Language</span>
+                  <div class="ripple__inner"></div>
+                </button>
+
+              </div>
             </div>
-            <div class="bottumnav">
-                <div class="navbottum">
-                    <div class="listsource">
-                        <ul>
-                            <li>About </li>
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="event.html">Event And Workshop</a></li>
-                            <li><a href="forum.html">Community & Forum</a></li>
-                            <li><a href="network.html">Network</a></li>
-                            <li><a href="#">Resource</a></li>
-                            <li><a href="feedback.html">Feedback & Support</a></li>
-                            <li><a href="https://creativekushwahaji01.github.io/">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </header>
-
-    <section id="hero" class="heroimg">
-        <div class="hero-content">
-            <h1>Welcome to Startup AYUSH</h1>
-            <p>Your Health, Our Heritage</p>
-            <a href="#about" class="cta-button btn">Learn More</a>
+      </div>
+      <div class="bottumnav">
+        <div class="navbottum">
+          <div class="listsource">
+            <ul>
+              <li><a href="#about">About</a> </li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="event.html">Event And Workshop</a></li>
+              <li><a href="forum.html">Community & Forum</a></li>
+              <li><a href="network.html">Network</a></li>
+              <li><a href="#">Resource</a></li>
+              <li><a href="feedback.html">Feedback & Support</a></li>
+              <li><a href="https://creativekushwahaji01.github.io/">Contact</a></li>
+            </ul>
+          </div>
         </div>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Startup India is a government initiative to promote innovation and entrepreneurship across the country.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>Startup Registration</h3>
-            <p>Register your startup and avail of various benefits and support.</p>
-        </div>
-        <div class="service">
-            <h3>Access to Funding</h3>
-            <p>Explore funding opportunities and connect with investors.</p>
-        </div>
-        <div class="service">
-            <h3>Resource Hub</h3>
-            <p>Access a wealth of resources, guides, and mentorship to grow your startup.</p>
-        </div>
-    </section>
-    <div class="chatbot">
-        <a href="#"><img class="chatimg chat-bubble" src="./img/image-removebg-preview.png" alt=""></a>
-        <div class="chat_disc ">
-          <a class="chatlink" href="#">Talk to Chatboat</a>
       </div>
     </div>
-    <footer>
-        <p>&copy; 2023 Ayush Startup.All Rights Reserved.</p>
-        <h4>HELP: +91 8022XXXXXX,894</h4>
-        <h4>E-mail: startupayush@india.gov.in</h4>
-    </footer>
+  </header>
+
+  <section id="hero" class="heroimg">
+    <div class="hero-content">
+      <h1>Welcome to Startup AYUSH</h1>
+      <p>Your Health, Our Heritage</p>
+      <a href="#about" class="cta-button btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Startup India is a government initiative to promote innovation and entrepreneurship across the country.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Startup Registration</h3>
+      <p>Register your startup and avail of various benefits and support.</p>
+    </div>
+    <div class="service">
+      <h3>Access to Funding</h3>
+      <p>Explore funding opportunities and connect with investors.</p>
+    </div>
+    <div class="service">
+      <h3>Resource Hub</h3>
+      <p>Access a wealth of resources, guides, and mentorship to grow your startup.</p>
+    </div>
+  </section>
+  <div class="chatbot">
+    <a href="#"><img class="chatimg chat-bubble" src="./img/image-removebg-preview.png" alt=""></a>
+    <div class="chat_disc ">
+      <a class="chatlink" href="#">Talk to Chatboat</a>
+    </div>
+  </div>
+
+
+
+  <section id="event01">
+    <div class="eve">
+      <div class="eve_main">
+        <div class="next_eve">
+          <div class="next_eve_about">
+            <div class="countdown">
+              <div class="event_details">
+                <h1 class="event_datils_head"  >International Conference 2024</h1>
+                <h3 class="event_datils_head"  >1-2 April 2024, Berlin</h3>
+              </div>
+              <div class="timemain">
+                <div class="timer-section" id="days">
+                  <span class="label">Days</span>
+                  <span id="daysValue">00</span>
+                </div>
+                <div class="timer-section" id="hours">
+                  <span class="label">Hours</span>
+                  <span id="hoursValue">00</span>
+                </div>
+                <div class="timer-section" id="minutes">
+                  <span class="label">Minutes</span>
+                  <span id="minutesValue">00</span>
+                </div>
+                <div class="timer-section" id="seconds">
+                  <span class="label">Seconds</span>
+                  <span id="secondsValue">00</span>
+                </div>
+              </div>
+            </div>
+            <script src="script.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Ayush Startup.All Rights Reserved.</p>
+    <h4>HELP: +91 8022XXXXXX,894</h4>
+    <h4>E-mail: startupayush@india.gov.in</h4>
+  </footer>
 </body>
+
 </html>
