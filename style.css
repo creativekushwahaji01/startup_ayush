@@ -130,11 +130,6 @@ footer {
     text-decoration: none;
     display: inline-block;
 }
-.btn{
-    color: white;
-}
-
-
 
 
 
@@ -257,6 +252,7 @@ li{
   display: flex;
   padding: 7px;
   border-radius: 15px;
+  /* height: 30.3px; */
 }
 .login a{
     text-decoration: none;
@@ -517,7 +513,7 @@ li{
       }
       
       .btn {
-        margin: 100px auto;
+        /* margin: 100px auto; */
         color: #6a7a7a;
         cursor: pointer;
         background: #f8f8f8;
