@@ -228,6 +228,7 @@ li{
 }
 .searchbarmain{
     display: flex;
+    height: 40px;
 }
 #searchbar{
     border: 1px solid rgb(246, 115, 15);
@@ -242,7 +243,7 @@ li{
   display: flex;
 }
 .searchform{
-    width: 100%;
+    width: 85%;
   height: 100%;
   position: relative;
   display: flex;
@@ -256,7 +257,7 @@ li{
   display: flex;
   padding: 7px;
   border-radius: 15px;
-  /* height: 30.3px; */
+    padding-top: 3px;
 }
 .login a{
     text-decoration: none;
@@ -861,4 +862,28 @@ margin: 30px 20px;
   .location_int {
     padding: 10%;
   }
+.eve_location_title_vanue {
+    width: 50%;
+  }
   
+  .loaction_img img{
+    width: 100%;
+  }
+.text_field2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+.eve_location_title_h3{
+    font-size: calc(30px + 1.5vw);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eve_location_title_h5{
+    font-size: calc(15px + 1.5vw);
+    text-transform: capitalize;
+    color: var(--color);
+    margin-bottom: 20px;
+}
+.search{
+    padding-top: 0px;}
