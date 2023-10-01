@@ -845,7 +845,9 @@ margin: 30px 20px;
   .text_field > div:nth-child(2) {
     width: 50%;
   }
-  
+  .text_field2 > div:nth-child(2) {
+    width: 50%;
+  }
   .text_field {
     display: flex;
     flex-wrap: wrap;
