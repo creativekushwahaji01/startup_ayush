@@ -718,8 +718,12 @@ li{
   }
   .para_of_eve{
     font-size: 17px;
-    margin: 30px 20px;
+    margin: 30px 50px;
+    text-align: center;
+    line-height: 25px;
     letter-spacing: 0.7px;
+    color: #888;
+
   }
   .eve_regis{
     display: flex;
@@ -734,4 +738,11 @@ li{
     padding: 5px;
     border-style: outset;
     border-radius: 20px;
+  }
+  .eve_regis a:hover{
+    padding: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4a4848;
+    border: 2px solid #8476c9;
   }
