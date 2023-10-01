@@ -8,6 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    margin: 5px;
 }
 
 header {
@@ -516,7 +517,6 @@ li{
       }
       
       .btn {
-        /* margin: 100px auto; */
         color: #6a7a7a;
         cursor: pointer;
         background: #f8f8f8;
@@ -552,7 +552,6 @@ li{
         }
       }
 
-/* Apply basic styles to the sticky div */
 .chatbot{
     position: fixed;
     top: 60%; 
@@ -585,8 +584,8 @@ li{
 
 .timer-section {
     margin: 0 10px;
-    background-color: var(--color); /* Background color for sections */
-    color: #fff; /* Text color for sections */
+    background-color: var(--color);
+    color: #fff; 
     border-radius: 5px;
     padding: 10px;
     font-size: 24px;
@@ -599,7 +598,10 @@ li{
 
 .label {
     font-size: 25px;
-    width: 75px;
+    width: 85px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 #daysValue, #hoursValue, #minutesValue, #secondsValue {
@@ -691,4 +693,45 @@ li{
   }
   .next_eve_speaker{
     background-color: #f1f0ec !important;
+  }
+  #event01{
+    margin: 0 20px;
+  }
+  .next_eve_d{
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .eve_intro_head{
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .eve_intro_head1{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Economica", sans-serif;
+    letter-spacing: 2px;
+    color: var(--color);
+    text-decoration: underline;
+  }
+  .para_of_eve{
+    font-size: 17px;
+    margin: 30px 20px;
+    letter-spacing: 0.7px;
+  }
+  .eve_regis{
+    display: flex;
+    justify-content: center;
+  }
+  .eve_regis a{
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid red;
+    background-color: var(--color);
+    color: #fff;
+    padding: 5px;
+    border-style: outset;
+    border-radius: 20px;
   }
