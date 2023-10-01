@@ -686,6 +686,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
  
   .flip-card-front img{
@@ -757,3 +758,105 @@ li{
     color:#888;
     text-transform: uppercase;
   }
+  .flip-card-back h3{
+    font-size: 30px;
+    color: var(--color);
+    margin: 20px 0px;
+  }
+  .connect {
+    margin-left: 0;
+    margin-top: -2px;
+    display: flex;
+    /* min-width: 280px; */
+    color: aliceblue;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+  .fa {
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 0.3em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.1em;
+    /* width: 2.8645vw; */
+    /* height: 4.6VW; */
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: inherit;
+    font-size: 27px;
+    border-width: 0.5vw;
+    height: 41px;
+    width: auto;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(to bottom right, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border-color: #fb39dd;
+    border-style: outset;
+}
+
+.fa-twitter {
+    border-color: #55ACEE;
+    border-style: outset;
+    color: #55ACEE;
+}
+
+.fa-linkedin {
+    border-color: #007bb5;
+    color: #007bb5;
+    border-style: outset;
+}
+.eve_speaker {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .top_of_speaker > h4:nth-child(2) {
+    font-size: 40px;
+    text-align: center;
+    color: var(--color);
+  }
+    .top_of_speaker {
+    margin: calc( 12px + 2vw);
+  }
+  .next_eve_speaker {
+    margin-bottom: 40px;
+  }
+ .eve_location_title{
+    text-transform: capitalize;
+ }
+.eve_location{
+margin: 30px 20px;
+}
+.eve_location_title {
+    width: 50%;
+  }
+  
+  .text_field > div:nth-child(2) {
+    width: 50%;
+  }
+  
+  .text_field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  .text_field > div:nth-child(2) > img:nth-child(1) {
+    width: 100%;
+  }
+  .location_int {
+    padding: 10%;
+  }
+  
