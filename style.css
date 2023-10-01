@@ -16,6 +16,94 @@ header {
     color: #fff;
     /* padding: 20px 0; */
 }
+#myTopnav{
+  top: 0;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+}
+#myTopnav {
+  background-color: var(--color); 
+  transition: background-color 0.3s ease; 
+  /* height: 50px;  */
+}
+
+#myTopnav.sticky {
+  background-color: transparent; 
+  backdrop-filter: blur(10px);
+  margin-top: 5px;
+  border-bottom: 2px solid #333;
+}
+
+@media screen and (min-width: 600px)
+{
+.topnav{
+display: flex;
+justify-content: space-between;
+}}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+      font-size: 18px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+  }
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+      display: none;
+  }
+  .topnav a.icon {
+      float: right;
+      display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .topnav.responsive {
+      position: relative;
+  }
+  .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+}
 
 nav {
     display: flex;
@@ -244,6 +332,7 @@ li{
 }
 .searchform{
     width: 85%;
+    margin-top: 3px;
   height: 100%;
   position: relative;
   display: flex;
@@ -251,6 +340,10 @@ li{
   box-shadow: rgba(0, 0, 0, 0.01) -38px 33px 20px, rgba(0, 0, 0, 0.05) -21px 19px 17px, rgba(0, 0, 0, 0.09) -10px 8px 13px, rgba(0, 0, 0, 0.1) -2px 2px 7px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
   border-radius: 7px;
 }
+.fa-search {
+  padding-top: 0;
+}
+
 .search{
     border: solid rgb(246,115,15);
   width: Auto;
@@ -470,6 +563,10 @@ li{
     font-size: 20px;
     text-transform: capitalize;
 }
+.chatbot > a:nth-child(1) {
+  text-align: center;
+}
+
 .chatlink{
     text-decoration: none;
     color: #fff;
@@ -581,10 +678,11 @@ li{
     justify-content: center;
     align-items: center;
     margin-top:  3.90625vw;
+    flex-wrap: wrap;
 }
 
 .timer-section {
-    margin: 0 10px;
+    margin: 10px 10px;
     background-color: var(--color);
     color: #fff; 
     border-radius: 5px;
@@ -820,10 +918,11 @@ li{
 .eve_speaker {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   .top_of_speaker > h4:nth-child(2) {
-    font-size: 40px;
+    font-size: 1.5rem;
     text-align: center;
     color: var(--color);
   }
@@ -874,6 +973,10 @@ margin: 30px 20px;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
+.text_field2 > div:nth-child(2) > img:nth-child(1) {
+  width: 100%;
+}
+
 .eve_location_title_h3{
     font-size: calc(30px + 1.5vw);
     font-weight: bold;
@@ -886,4 +989,66 @@ margin: 30px 20px;
     margin-bottom: 20px;
 }
 .search{
-    padding-top: 0px;}
+    padding-top: 0px;
+  }
+
+    .fa-bars {
+      padding-bottom: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      height: auto;
+    }
+    @media screen and (max-width:650px){
+      .midnav{
+        display: none;
+      }
+      .topofnav{
+        display: none;
+      }
+      .heroimg{
+        padding: 0px;
+      }
+      .next_eve_about{
+        height: 100vh;
+      }
+      .event_details h1{
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: -2px;
+      }
+      #event01 {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .para_of_eve {
+        font-size: 17px;
+        margin: 5px 10px;
+        text-align: center;
+        /*! line-height: 25px; */
+        letter-spacing: 0.7px;
+        color: #888;
+        line-height: 15px;
+      }
+      .location_img{
+        display: none;
+      }
+      .eve_location_title{
+        width: 100vw;
+      }
+      .text_field{
+        margin: 2px;
+      }
+      .chatimg{
+        height: 50px;
+      }
+      .chatbot{
+        top: 70%;
+      }
+    }
+.eve_intro_head{
+  font-size: calc(20px + 2vw);
+}
+.social{
+  display: none;
+}

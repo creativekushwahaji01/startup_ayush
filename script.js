@@ -24,3 +24,21 @@ const timer = setInterval(function () {
         document.getElementById("secondsValue").innerHTML = seconds;
     }
 }, 1000);
+
+
+window.onscroll = function() {
+    const topnav = document.getElementById("myTopnav");
+    if (window.pageYOffset > 0) {
+        topnav.classList.add("sticky");
+    } else {
+        topnav.classList.remove("sticky");
+    }
+};
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
