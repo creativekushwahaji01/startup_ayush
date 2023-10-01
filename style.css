@@ -746,3 +746,14 @@ li{
     background-color: #4a4848;
     border: 2px solid #8476c9;
   }
+  .flip-card-front h5{
+    font-size: 25px;
+    color: var(--color);
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+  .flip-card-front h6{
+    font-size: 20px;
+    color:#888;
+    text-transform: uppercase;
+  }
