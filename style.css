@@ -637,7 +637,15 @@ li{
           }
         }
       }
-      
+      .h2_about{
+        font-size: calc(20px + 1.5vw);
+        text-transform: uppercase;
+        color: var(--color);
+        text-align: center;
+      }
+      .p_about{
+        margin: 15px 10vw;
+      }
       .btn {
         color: #6a7a7a;
         cursor: pointer;
