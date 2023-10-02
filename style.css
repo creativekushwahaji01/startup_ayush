@@ -5,6 +5,9 @@
 :root{
     --color:rgb(246,115,15);
 }
+li{
+  text-transform: capitalize;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -19,6 +22,9 @@ header {
 #myTopnav{
   top: 0;
   
+}
+#myTopnav a{
+  text-transform: capitalize;
 }
 
 #mobnav {
@@ -233,11 +239,15 @@ footer {
     text-decoration: none;
     display: inline-block;
 }
-
-
-
-
-
+.stakeholder_list{
+  display: none;
+  background-color: black;
+  color: var(--color);
+  text-decoration: underline;
+}
+.stakeholder_p:hover+.stakeholder_list{
+  display: block;
+}
 .mainheader{
     background-color: rgb(34, 28, 28);
     height: 60px;
@@ -1107,3 +1117,4 @@ margin: 30px 20px;
   justify-content: center;
   align-items: center;
 }
+
