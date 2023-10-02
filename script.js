@@ -27,7 +27,7 @@ const timer = setInterval(function () {
 
 
 window.onscroll = function() {
-    const topnav = document.getElementById("myTopnav");
+    const topnav = document.getElementById("mobnav");
     if (window.pageYOffset > 0) {
         topnav.classList.add("sticky");
     } else {
